@@ -45,6 +45,24 @@ def average_marks():
     avg=total/count   
     print(f"Average grade: {avg}")
 
+def update_student():
+    s_name = input("Enter student's name to update: ")
+    for student_id, info in students.items():
+        if info['name'].lower() == s_name.lower():
+            new_name = input("Enter new name (leave blank to keep current): ")
+            new_age = input("Enter new age (leave blank to keep current): ")
+            new_grade = input("Enter new grade (leave blank to keep current): ")
+            if new_name.strip():
+                info['name'] = new_name
+            if new_age.strip():
+                info['age'] = int(new_age)
+            if new_grade.strip():
+                info['grade'] = int(new_grade)
+            print(f"Student {student_id} updated successfully.")
+            return
+    print("Student not found.")
+
+
 def main():
     while True:
         print("1. Add Student")
@@ -52,7 +70,8 @@ def main():
         print("3. Search Students")
         print("4. Delete Student")
         print("5. Average Marks")
-        print("6. exit")
+        print("6. Update Student")
+        print("7. Exit")
 
         choice = int(input("Enter choice: "))
 
@@ -67,6 +86,8 @@ def main():
         elif choice == 5:
             average_marks()
         elif choice == 6:
+            update_student()
+        elif choice == 7:
             break
         else:
             print("Invalid Choice")

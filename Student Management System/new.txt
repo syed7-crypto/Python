@@ -1,0 +1,5 @@
+Add update student feature
+Improve search with case-insensitive matching
+Handle invalid age and grade input
+Add README with usage instructions
+Refactor code into separate functions
