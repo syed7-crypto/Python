@@ -25,3 +25,7 @@ def pow_fun():
     b=float(input("b:"))
     return a**b
 
+def mod_fun():
+    a=float(input("a:"))
+    b=float(input("b:"))
+    return a%b 
