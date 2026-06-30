@@ -1,31 +1,31 @@
 print("Python Calculator")
 
-def add_fun():
+def Add():
     a=float(input("a:"))
     b=float(input("b:"))
     return a+b
 
-def sub_fun():
+def Subtrat():
     a=float(input("a:"))
     b=float(input("b:"))
     return a-b
 
-def mul_fun():
+def Multiply():
     a=float(input("a:"))
     b=float(input("b:"))
     return a*b
 
-def div_fun():
+def Divide():
     a=float(input("a:"))
     b=float(input("b:"))
     return a/b
 
-def pow_fun():
+def Power():
     a=float(input("a:"))
     b=float(input("b:"))
     return a**b
 
-def mod_fun():
+def Modulus():
     a=float(input("a:"))
     b=float(input("b:"))
     return a%b 
