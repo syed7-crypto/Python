@@ -39,7 +39,26 @@ def main():
 6. Modulus
 7. Exit
 """)
-        choice = input("Choice: ")
+        choice = int(input("Choice: "))
+
+        if choice == 1:
+            print(f"Result: {Add()}")
+        elif choice == 2:
+            print(f"Result: {Subtrat()}")
+        elif choice == 3:
+            print(f"Result: {Multiply()}")
+        elif choice == 4:
+            print(f"Result: {Divide()}")
+        elif choice == 5:
+            print(f"Result: {Power()}")
+        elif choice == 6:
+            print(f"Result: {Modulus()}")
+        elif choice == 7:
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid Choice!")
 
 
-        
+
+main ()    
