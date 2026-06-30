@@ -1,33 +1,32 @@
 print("Python Calculator")
 
+def get_numbers():
+    a = float(input("a: "))
+    b = float(input("b: "))
+    return a, b
+
 def Add():
-    a=float(input("a:"))
-    b=float(input("b:"))
+    a,b=get_numbers()
     return a+b
 
 def Subtrat():
-    a=float(input("a:"))
-    b=float(input("b:"))
+    a,b=get_numbers()
     return a-b
 
 def Multiply():
-    a=float(input("a:"))
-    b=float(input("b:"))
+    a,b=get_numbers()
     return a*b
 
 def Divide():
-    a=float(input("a:"))
-    b=float(input("b:"))
+    a,b=get_numbers()
     return a/b
 
 def Power():
-    a=float(input("a:"))
-    b=float(input("b:"))
+    a,b=get_numbers()
     return a**b
 
 def Modulus():
-    a=float(input("a:"))
-    b=float(input("b:"))
+    a,b=get_numbers()
     return a%b 
 
 def main():
