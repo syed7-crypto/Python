@@ -1,0 +1,99 @@
+I think that's a great idea. A calculator is the right level after your Student Management System.
+
+You already know everything needed to build a **basic calculator**:
+
+* ✅ Variables
+* ✅ Input/output
+* ✅ `if-elif-else`
+* ✅ Functions
+* ✅ Loops
+* ✅ Basic operators
+
+You **don't need to learn anything else first**.
+
+## Calculator Project (Level 1)
+
+Features:
+
+```
+===== Calculator =====
+
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+```
+
+The program should:
+
+* Ask for two numbers.
+* Ask which operation to perform.
+* Display the result.
+* Return to the menu until the user chooses Exit.
+
+Example:
+
+```text
+===== Calculator =====
+
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. View History
+8. Exit
+
+Choice: 4
+
+Enter first number: 10
+Enter second number: 2
+
+Result = 5
+```
+
+### Bonus challenges (after you finish)
+
+* Prevent division by zero.
+* Keep a history of calculations.
+* Ask the user whether to continue.
+* Allow decimal numbers (`float`).
+* Clear the screen before showing the menu again.
+
+## After that
+
+I have a slightly harder challenge:
+
+**Calculator V2**
+
+Instead of asking:
+
+```
+Choice: 1
+First number: 5
+Second number: 3
+```
+
+the user enters:
+
+```
+5 + 3
+```
+
+or
+
+```
+12 * 7
+```
+
+and your program parses the input and calculates the answer.
+
+---
+
+**One rule for this project:** Try to design it yourself. Don't ask me for the full code. If you get stuck on one part (like handling division by zero or organizing the menu), ask about that specific part and I'll help you without writing the whole program for you.
+
+That's exactly how you'll become a good programmer.
